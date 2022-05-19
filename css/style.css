@@ -17,6 +17,30 @@ iframe{
     width: 90%;
 }
 
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
 .img{
     width: 100%;
 }
@@ -24,24 +48,57 @@ p{
     text-align: justify;
 }
 
+.legende{
+    color: grey;
+    font-size: 11px;
+}
+
 body{
-    background-color: whitesmoke;
+    background-color: #e8e8e8;
 }
 
 header{
-    color: white;
+    color: #ffe32b;
     height: 100px;
+    background-color: #0087ca;
     box-shadow: 0px 0px 5px grey;
 }
 
+#blue{
+    display: inline-block;
+    position: relative;
+}
+
+#blue:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffe32b;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+  }
+  
+  header:hover #blue:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
 .titr{
     line-height: 80px;
+    
 }
 
 footer{
     height: 100px;
     margin-top: 50px;
     box-shadow: 0px 0px 5px grey;
+    background-color: #0087ca;
 }
 
 
