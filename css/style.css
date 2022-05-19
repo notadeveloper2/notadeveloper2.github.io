@@ -123,6 +123,9 @@ footer{
         width: 100%;
         height: 400px;
     }
+    .titr{
+        font-size: 20px;
+    }
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
