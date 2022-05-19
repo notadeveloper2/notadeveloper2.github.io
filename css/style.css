@@ -1,0 +1,20 @@
+.article{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.img{
+    width: 60%;
+}
+p{
+    text-align: justify;
+}
+
+header{
+    color: white;
+    height: 100px;
+}
+
+footer{
+    height: 100px;
+}
