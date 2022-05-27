@@ -211,6 +211,9 @@ footer{
         float: right;
     }
     .laptopButton{display: none;}
+    .titr{
+        margin-top: 20px;
+    }
 }
 
 
