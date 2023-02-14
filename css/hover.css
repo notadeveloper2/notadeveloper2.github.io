@@ -1,6 +1,7 @@
 #blue{
     display: inline-block;
     position: relative;
+    font-family: "BrownProBold";
 }
 
 #blue:after {

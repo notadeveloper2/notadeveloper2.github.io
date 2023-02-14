@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "BrownProBold";
+    src: local("BrownProBold"),
+      url("FontsFree-Net-BrownPro-Bold.ttf") format("opentype") tech(color-COLRv1), url("trickster-outline.otf")
+        format("opentype"), url("trickster-outline.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "BrownRegular";
+    src: local("BrownRegular"),
+      url("FontsFree-Net-Brown-Regular-Regular.ttf") format("opentype") tech(color-COLRv1), url("trickster-outline.otf")
+        format("opentype"), url("trickster-outline.woff") format("woff");
+  }
+  
+
 .article{
     width: 50%;
     margin: 0 auto;
@@ -5,6 +20,10 @@
     background-color: white;
     padding: 10px;
     border-radius: 0px;
+}
+
+.sous-titre{
+    font-family: "BrownRegular";
 }
 
 .radioImg{
@@ -154,7 +173,6 @@ footer{
         width: 97%;
         padding: 2px;
         margin-top: 50px;  
-        font-family: 'brownprobold'; 
     }
     .container{
         width: 97%;
@@ -165,7 +183,6 @@ footer{
     }
     .titree{
         font-size: 20px;
-        font-family: 'brownprobold';
     }
     li a{
         color: white !important;
@@ -223,6 +240,10 @@ footer{
     .titr{
         margin-top: 20px;
     }
+}
+
+.titr{
+    font-family: "BrownProBold";
 }
 
 #myBtn {
