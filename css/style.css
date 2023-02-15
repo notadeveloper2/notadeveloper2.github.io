@@ -267,12 +267,10 @@ footer{
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px 20px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
 
 #myBtn:hover {
-    transition: 0.5s;
   background-color: #ffc107; /* Add a dark-grey background on hover */
 }
 
@@ -280,4 +278,13 @@ footer{
     background-color: #232323;
     color: white;
     padding: 40px 40px 20px 40px;
+}
+
+.preArticle{
+    border-top: solid 1.2px #ECF0F4;
+    padding-top: 13px;
+    color: #616364;
+}
+.readTime{
+    float: right;
 }
