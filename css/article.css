@@ -1,0 +1,30 @@
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+    .article{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    iframe{
+        width: 100%;
+        height: 500px;
+    }
+    .phoneButton{
+        display: block;
+        float: right;
+    }
+    .laptopButton{display: none;}
+}
+
+@media only screen and (min-width: 1201px) {
+    .article{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}
+
+.txtContainer{
+    margin-left: 7%;
+    padding-left: 7%;
+    border-left: solid 1px #E1E7ED;
+}
