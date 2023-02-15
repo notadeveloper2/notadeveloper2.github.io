@@ -61,6 +61,11 @@ audio {
 -webkit-transform: translateX(-3px);
 transform: translateX(-3px);
 transition: .5s ease;
+
+}
+
+.lien:hover h3{
+    text-decoration: underline;
 }
 
 
@@ -271,3 +276,8 @@ footer{
   background-color: #ffc107; /* Add a dark-grey background on hover */
 }
 
+.encadrer{
+    background-color: #232323;
+    color: white;
+    padding: 40px 40px 20px 40px;
+}
