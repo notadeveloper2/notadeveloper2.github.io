@@ -1,15 +1,18 @@
 @font-face {
     font-family: "BrownProBold";
     src: local("BrownProBold"),
-      url("FontsFree-Net-BrownPro-Bold.ttf") format("opentype") tech(color-COLRv1), url("trickster-outline.otf")
-        format("opentype"), url("trickster-outline.woff") format("woff");
+      url("FontsFree-Net-BrownPro-Bold.ttf") format("opentype"),
+      url("fontsfree-net-brownpro-bold-webfont.woff") format("woff"),
+      url("fontsfree-net-brownpro-bold-webfont.woff2") format("woff2");
   }
 
   @font-face {
     font-family: "BrownRegular";
     src: local("BrownRegular"),
-      url("FontsFree-Net-Brown-Regular-Regular.ttf") format("opentype") tech(color-COLRv1), url("trickster-outline.otf")
-        format("opentype"), url("trickster-outline.woff") format("woff");
+      url("FontsFree-Net-Brown-Regular-Regular.ttf") format("opentype"),
+      url("fontsfree-net-brown-regular-regular-webfont.woff") format("woff"),
+      url("fontsfree-net-brown-regular-regular-webfont.woff2") format("woff2");
+      ;
   }
   
 
@@ -23,7 +26,7 @@
 }
 
 .sous-titre{
-    font-family: "BrownRegular";
+    font-family: "BrownRegular", sans-serif;
 }
 
 .radioImg{
@@ -105,8 +108,12 @@ p{
 }
 
 .legende{
-    color: grey;
-    font-size: 11px;
+    color: #5C5C5D;
+    font-size: 14px;
+    margin: 0px;
+    background-color: #FAFBFF;
+    padding: 9px;
+    font-family: "BrownProBold";
 }
 
 body{
