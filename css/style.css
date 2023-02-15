@@ -112,14 +112,13 @@ p{
 }
 
 body{
-    background-color: #e8e8e8;
+    background-color: #FFFFFF;
 }
 
 header{
-    color: rgb(238, 234, 234);
-    height: 100px;
-    background-color: rgb(12, 12, 12);
-    box-shadow: 0px 0px 5px grey;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 1px grey;
 }
 .containerNav {
     width: 80%;
@@ -132,7 +131,7 @@ header{
 
 
 li a{
-    color: white !important;
+    color: black !important;
     font-size: 18px !important;
 }
 .a{
@@ -185,7 +184,7 @@ footer{
         font-size: 20px;
     }
     li a{
-        color: white !important;
+        color: black !important;
         font-size: 14px !important;
     }
     .bonjour {
@@ -266,5 +265,4 @@ footer{
     transition: 0.5s;
   background-color: #ffc107; /* Add a dark-grey background on hover */
 }
-
 
