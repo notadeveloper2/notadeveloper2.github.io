@@ -1,0 +1,49 @@
+footer{
+    color: white;padding-bottom: 50px;
+}
+
+.nl-block__title{
+    color: #f2f2f2;
+    font-family: 'BrownProBold',sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.inputMail {
+    border-radius: 30px;
+    border: solid 2px gray;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: inherit;
+    color: #f2f2f2;
+    padding: 20px;
+}
+
+input::placeholder{
+    font-family: 'BrownRegular';
+    color: #B9B9B9;
+}
+
+.submitMail{
+    border-radius: 30px;
+    border: 0;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #ffc107;
+    font-family: 'BrownRegular';
+    font-size: 21px;
+    color: #232323;
+}
+
+.inputMail:hover{
+    border: solid 2px lightgray;
+}
+
+input::placeholder{
+    margin-bottom: 20px;
+}

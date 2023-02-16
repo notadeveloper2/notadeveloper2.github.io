@@ -27,6 +27,7 @@
 
 .sous-titre{
     font-family: "BrownRegular", sans-serif;
+    font-size: 17px;
 }
 
 .radioImg{
@@ -151,7 +152,6 @@ li a{
 
 
 footer{
-    height: 100px;
     margin-top: 50px;
     box-shadow: 0px 0px 5px grey;
     background-color: #232323;
@@ -170,9 +170,6 @@ footer{
 
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
-    footer{
-        height:150px;
-    }
     
     .nav-link{
         padding-left: 8px;
@@ -256,22 +253,25 @@ footer{
 }
 
 #myBtn {
+    border-radius: 30px;
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: #555; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px 20px; /* Some padding */
+  padding: 10px 15px; /* Some padding */
   font-size: 18px; /* Increase font size */
+  transform-origin: center;
+  border: solid 2px #555;
+  transition: 0.2s;
 }
 
 #myBtn:hover {
-  background-color: #ffc107; /* Add a dark-grey background on hover */
+  border: solid 2px lightgray; /* Add a dark-grey background on hover */
 }
 
 .encadrer{
@@ -281,9 +281,11 @@ footer{
 }
 
 .preArticle{
-    border-top: solid 1.2px #ECF0F4;
+    border-top: solid 1.33px #ECF0F4;
     padding-top: 13px;
     color: #616364;
+    font-size: 14px;
+    font-family: "BrownRegular";
 }
 .readTime{
     float: right;
