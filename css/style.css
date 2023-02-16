@@ -290,3 +290,7 @@ footer{
 .readTime{
     float: right;
 }
+
+.auteur{
+    margin: 40px 0px;
+}
