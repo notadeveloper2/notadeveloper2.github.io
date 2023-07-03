@@ -46,7 +46,7 @@ audio {
 .lien{
     columns: 2;
     width: 100%;
-    border: #ffc107 10px;
+    border: #0bb9a2 10px;
     transition: .5s ease;
 }
 
@@ -54,11 +54,11 @@ audio {
     cursor: pointer;
     box-shadow:
 
--1px -1px #ffc107,
--2px -2px #ffc107,
--3px -3px #ffc107,
--4px -4px #ffc107,
--5px -5px #ffc107;
+-1px -1px #0bb9a2,
+-2px -2px #0bb9a2,
+-3px -3px #0bb9a2,
+-4px -4px #0bb9a2,
+-5px -5px #0bb9a2;
 -webkit-transform: translateX(-3px);
 transform: translateX(-3px);
 transition: .5s ease;
@@ -72,7 +72,7 @@ transition: .5s ease;
 
 
 .label{
-    color: #ffc107;
+    color: #0bb9a2;
     text-decoration: underline;
 }
 
@@ -245,6 +245,7 @@ footer{
     .titr{
         margin-top: 20px;
     }
+
 }
 
 .titr{
@@ -293,3 +294,8 @@ footer{
 .auteur{
     margin: 40px 0px;
 }
+
+
+
+
+

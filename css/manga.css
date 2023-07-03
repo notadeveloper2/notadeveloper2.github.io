@@ -1,0 +1,38 @@
+.magazine{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image{
+    margin-top: 10px;
+}
+
+
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+    .magazine{
+        width: 100%;
+    }
+    .IMGIMG{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+    .magazine{
+        width: 100%;
+    }
+    .IMGIMG{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .magazine{
+        width: 80%;
+
+    }
+    .IMGIMG{
+        width: 60%;
+    }
+}

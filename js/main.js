@@ -19,6 +19,8 @@ function goToVideo() {
     window.location.href = 'pages/vidoe.html';
 }
 
+/*
 lien1fromArticles.addEventListener("click", goToArticle1FromArticles, false)
 lien2fromArticles.addEventListener("click", goToArticle2FromArticles, false)
 lien3fromArticles.addEventListener("click", goToArticle3FromArticles, false)
+*/
