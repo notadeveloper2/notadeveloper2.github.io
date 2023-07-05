@@ -165,7 +165,9 @@ footer{
 
 }
 
-
+.btnForMobile{
+    display: none;
+}
 
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
@@ -208,6 +210,19 @@ footer{
         margin-bottom: 10px;
     }
     .laptopButton{display: none;}
+    .containerNav {
+        width: 89%;
+    }
+    .btnForMobile{
+        display: block;
+        margin-top: 10px;
+        color: white;
+        background-color: red;
+        border-radius: 2px;
+        border: none;
+        height: 30px;
+        width: 30%;
+    }
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
@@ -245,7 +260,7 @@ footer{
     .titr{
         margin-top: 20px;
     }
-
+    
 }
 
 .titr{
