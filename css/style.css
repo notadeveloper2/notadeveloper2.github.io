@@ -46,7 +46,7 @@ audio {
 .lien{
     columns: 2;
     width: 100%;
-    border: #0bb9a2 10px;
+    border: #e90909 10px;
     transition: .5s ease;
 }
 
@@ -54,11 +54,11 @@ audio {
     cursor: pointer;
     box-shadow:
 
--1px -1px #0bb9a2,
--2px -2px #0bb9a2,
--3px -3px #0bb9a2,
--4px -4px #0bb9a2,
--5px -5px #0bb9a2;
+-1px -1px #e90909,
+-2px -2px #e90909,
+-3px -3px #e90909,
+-4px -4px #e90909,
+-5px -5px #e90909;
 -webkit-transform: translateX(-3px);
 transform: translateX(-3px);
 transition: .5s ease;
@@ -72,7 +72,7 @@ transition: .5s ease;
 
 
 .label{
-    color: #0bb9a2;
+    color: #e90909;
     text-decoration: underline;
 }
 
@@ -161,7 +161,7 @@ footer{
     width: 201px;
     line-height: 92px;
     color: white;
-    text-decoration: underline #ffe32b;
+    text-decoration: underline #e90909;
 
 }
 
