@@ -16,6 +16,9 @@
     .IMGIMG{
         width: 100%;
     }
+    .IMGIMG2{
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
@@ -23,6 +26,9 @@
         width: 100%;
     }
     .IMGIMG{
+        width: 100%;
+    }
+    .IMGIMG2{
         width: 100%;
     }
 }
@@ -34,5 +40,8 @@
     }
     .IMGIMG{
         width: 60%;
+    }
+    .IMGIMG2{
+        width: 100%;
     }
 }
