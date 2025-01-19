@@ -86,9 +86,6 @@ lien9fromIndex.addEventListener("click", goToArticle9FromIndex, false)
 
 
 
-
-
-
 let lien10fromIndex = document.querySelector('.lien10index');
 
 function goToArticle10FromIndex() {
@@ -96,3 +93,14 @@ function goToArticle10FromIndex() {
 }
 
 lien10fromIndex.addEventListener("click", goToArticle10FromIndex, false)
+
+
+let lien11fromIndex = document.querySelector('.lien11index');
+
+function goToArticle11FromIndex() {
+    window.location.href = 'pages/podcasts/podcast3.html';
+}
+
+lien11fromIndex.addEventListener("click", goToArticle11FromIndex, false)
+
+
