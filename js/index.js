@@ -44,7 +44,7 @@ function goToArticle5FromIndex() {
     window.location.href = 'pages/articles/article5.html';
 }
 
-lien5fromIndex.addEventListener("click", goToArticle5FromIndex, false)
+//lien5fromIndex.addEventListener("click", goToArticle5FromIndex, false)
 
 
 
@@ -56,7 +56,7 @@ function goToArticle6FromIndex() {
 
 lien6fromIndex.addEventListener("click", goToArticle6FromIndex, false)
 
-
+/*
 let lien7fromIndex = document.querySelector('.lien7index');
 
 function goToArticle7FromIndex() {
@@ -73,7 +73,7 @@ function goToArticle8FromIndex() {
 }
 
 lien8fromIndex.addEventListener("click", goToArticle8FromIndex, false)
-
+*/
 
 
 let lien9fromIndex = document.querySelector('.lien9index');
