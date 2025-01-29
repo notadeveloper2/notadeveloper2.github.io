@@ -27,7 +27,6 @@
 
 .sous-titre{
     font-family: "BrownRegular", sans-serif;
-    font-size: 17px;
 }
 
 .radioImg{
@@ -171,7 +170,7 @@ footer{
 
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
-    
+    .tps{display: none;}
     .nav-link{
         padding-left: 8px;
         padding-right: 8px;
@@ -183,6 +182,7 @@ footer{
     }
     .container{
         width: 97%;
+        padding: 0px;
     }
     iframe{
         width: 100%;
@@ -223,9 +223,16 @@ footer{
         height: 30px;
         width: 30%;
     }
+    .txtContainer{margin-left: 0px !important;
+    padding: 0px !important;
+    border: 0px !important;}
+    .encadrer{padding: 10px !important;
+    width: 100%;}
+    .prems{margin-top: 20px;}
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
+    .prems{margin-top: 20px;}
     .article{
         width: 80%;
         margin: 0 auto;
@@ -240,9 +247,10 @@ footer{
         float: right;
     }
     .laptopButton{display: none;}
+    p.sous-titre{font-size: 16px;}
 }
 
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1201px) and (max-width: 1700px){
     .article{
         width: 80%;
         margin: 0 auto;
@@ -261,6 +269,27 @@ footer{
         margin-top: 20px;
     }
     
+}
+
+@media only screen and (min-width: 1701px) {
+    .article{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    p.sous-titre{font-size: 18px;}
+    iframe{
+        width: 100%;
+        height: 700px;
+    }
+    .phoneButton{
+        display: block;
+        float: right;
+    }
+    .laptopButton{display: none;}
+    .titr{
+        margin-top: 20px;
+    }
 }
 
 .titr{
