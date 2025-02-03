@@ -45,7 +45,7 @@ audio {
 .lien{
     columns: 2;
     width: 100%;
-    border: #e90909 10px;
+    border: #2e4dbf 10px;
     transition: .5s ease;
 }
 
@@ -53,11 +53,11 @@ audio {
     cursor: pointer;
     box-shadow:
 
--1px -1px #e90909,
--2px -2px #e90909,
--3px -3px #e90909,
--4px -4px #e90909,
--5px -5px #e90909;
+-1px -1px #2e4dbf,
+-2px -2px #2e4dbf,
+-3px -3px #2e4dbf,
+-4px -4px #2e4dbf,
+-5px -5px #2e4dbf;
 -webkit-transform: translateX(-3px);
 transform: translateX(-3px);
 transition: .5s ease;
@@ -71,7 +71,7 @@ transition: .5s ease;
 
 
 .label{
-    color: #e90909;
+    color: #2e4dbf;
     text-decoration: underline;
 }
 
@@ -160,7 +160,7 @@ footer{
     width: 201px;
     line-height: 92px;
     color: white;
-    text-decoration: underline #e90909;
+    text-decoration: underline #2e4dbf;
 
 }
 
@@ -217,7 +217,7 @@ footer{
         display: block;
         margin-top: 10px;
         color: white;
-        background-color: red;
+        background-color: #2e4dbf;
         border-radius: 2px;
         border: none;
         height: 30px;

@@ -12,7 +12,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #e90909;
+    background-color: #2e4dbf;
     transform-origin: bottom right;
     transition: transform 0.35s ease-out;
   }
@@ -40,7 +40,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #e90909;
+    background-color: #2e4dbf;
     transform-origin: bottom right;
     transition: transform 0.35s ease-out;
   }
